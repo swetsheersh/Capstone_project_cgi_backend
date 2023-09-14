@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-13T12:18:26 IST" name="Suite" finished-at="2023-09-13T12:18:35 IST" duration-ms="9671">
+    <groups>
+    </groups>
+    <test started-at="2023-09-13T12:18:26 IST" name="Test" finished-at="2023-09-13T12:18:35 IST" duration-ms="9671">
+      <class name="com.jwt.springjwt.UserTest">
+        <test-method signature="register()[pri:0, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:33 IST" name="register" finished-at="2023-09-13T12:18:33 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="registerAgainWithSameid()[pri:1, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:33 IST" name="registerAgainWithSameid" finished-at="2023-09-13T12:18:33 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAgainWithSameid -->
+        <test-method signature="login()[pri:2, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:33 IST" name="login" finished-at="2023-09-13T12:18:34 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="InvalidLogin()[pri:3, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:34 IST" name="InvalidLogin" finished-at="2023-09-13T12:18:34 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method signature="addToCart()[pri:4, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:34 IST" name="addToCart" finished-at="2023-09-13T12:18:34 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="getProductById()[pri:5, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:34 IST" name="getProductById" finished-at="2023-09-13T12:18:34 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductById -->
+        <test-method signature="invalidGetProductById()[pri:6, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:34 IST" name="invalidGetProductById" finished-at="2023-09-13T12:18:34 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidGetProductById -->
+        <test-method signature="getProductsByCategory()[pri:7, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:34 IST" name="getProductsByCategory" finished-at="2023-09-13T12:18:35 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsByCategory -->
+        <test-method signature="getAllFromCart()[pri:8, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:35 IST" name="getAllFromCart" finished-at="2023-09-13T12:18:35 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllFromCart -->
+        <test-method signature="removefromCart()[pri:9, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:35 IST" name="removefromCart" finished-at="2023-09-13T12:18:35 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removefromCart -->
+        <test-method signature="invalidRemovefromCart()[pri:10, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:35 IST" name="invalidRemovefromCart" finished-at="2023-09-13T12:18:35 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRemovefromCart -->
+        <test-method signature="orderHistory()[pri:11, instance:com.jwt.springjwt.UserTest@4567f35d]" started-at="2023-09-13T12:18:35 IST" name="orderHistory" finished-at="2023-09-13T12:18:35 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+      </class> <!-- com.jwt.springjwt.UserTest -->
+      <class name="com.jwt.springjwt.SpringjwtserverApplicationTests">
+        <test-method signature="register()[pri:0, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:26 IST" name="register" finished-at="2023-09-13T12:18:30 IST" duration-ms="3983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="registerAgainWithSameid()[pri:1, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:30 IST" name="registerAgainWithSameid" finished-at="2023-09-13T12:18:30 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAgainWithSameid -->
+        <test-method signature="login()[pri:2, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:30 IST" name="login" finished-at="2023-09-13T12:18:32 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="InvalidLogin()[pri:3, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:32 IST" name="InvalidLogin" finished-at="2023-09-13T12:18:32 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method signature="addProduct()[pri:4, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:32 IST" name="addProduct" finished-at="2023-09-13T12:18:32 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method signature="addingSameProductAgain()[pri:5, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:32 IST" name="addingSameProductAgain" finished-at="2023-09-13T12:18:32 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingSameProductAgain -->
+        <test-method signature="updateProduct()[pri:6, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:32 IST" name="updateProduct" finished-at="2023-09-13T12:18:33 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method signature="deleteProduct()[pri:7, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:33 IST" name="deleteProduct" finished-at="2023-09-13T12:18:33 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method signature="InvalidDeleteProduct()[pri:8, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:33 IST" name="InvalidDeleteProduct" finished-at="2023-09-13T12:18:33 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidDeleteProduct -->
+        <test-method signature="addProduct1()[pri:9, instance:com.jwt.springjwt.SpringjwtserverApplicationTests@2e005c4b]" started-at="2023-09-13T12:18:33 IST" name="addProduct1" finished-at="2023-09-13T12:18:33 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct1 -->
+      </class> <!-- com.jwt.springjwt.SpringjwtserverApplicationTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
